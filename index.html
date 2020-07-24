@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <!-- Bootstrap CSS -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/css/bootstrap.css">
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pioneer Bank</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="row justify-content-center box-section">
+                <div class="col-lg-4">
+                    <div class="div-box shadow">
+                        <h3 class="text-center">Deposit</h3>
+                        <p>$ <span id="deposit">00</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="div-box shadow">
+                        <h3 class="text-center">Withdraw</h3>
+                        <p>$ <span id="withdraw">00</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="div-box shadow">
+                        <h3 class="text-center">Total Balance</h3>
+                        <p>$ <span id="total">1240</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="amount">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <form class="p-5 amount-box" action="">
+                            <div class="form-group">
+                                <label for="deposit-num">Deposit</label>
+                                <input type="text" class="form-control" id="deposit-num"
+                                    placeholder="$ amount you want to deposit">
+                            </div>
+                            <button type="submit" class="btn btn-primary mt-3">Deposit</button>
+                        </form>
+                    </div>
+                    <div class="col-lg-6">
+                        <form class="p-5 amount-box" action="">
+                            <div class="form-group">
+                                <label for="with-num">Withdraw</label>
+                                <input type="text" class="form-control" id="with-num"
+                                    placeholder="$ amount you want to withdraw">
+                            </div>
+                            <button type="submit" class="with btn btn-primary mt-3">Withdraw</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="container login-box">
+        <div class="row justify-content-center sign align-items-center">
+            <div class="col-lg-6">
+                <form class="p-5 amount-box">
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+                    <input type="button" value="Log In" class="btn btn-success mt-4" id="login">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="vendor/js/bootstrap.min.js">
+    </script>
+</body>
+
+</html>
